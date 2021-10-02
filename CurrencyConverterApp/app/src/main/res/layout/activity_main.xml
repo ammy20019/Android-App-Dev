@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Currency Converter" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:hint="In Rs"
+        android:textColor="#A19C9C"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <!--   Customized RadioButtons  -->
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/radiodollar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="US Dollar"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioyen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Yen"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radioeuro"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Euro"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/radiocanada"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Canadian Dollar"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Convert"
+        android:layout_marginTop="10dp"
+        android:id="@+id/button"
+        android:onClick="onclickbuttonMethod"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/converted"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By 18MIS7250"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:gravity="center"/>
+
+
+</LinearLayout>

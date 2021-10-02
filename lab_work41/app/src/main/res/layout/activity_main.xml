@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:text="18MIS7250 Store"/>
+
+    <Button
+        android:id="@+id/fruits"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="Fruits"
+        />
+
+    <Button
+        android:id="@+id/vegetables"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="Vegetables"
+        />
+
+    <Button
+        android:id="@+id/groceries"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        android:text="Groceries"
+        />
+
+    <TextView
+        android:id="@+id/disp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+/>
+
+</LinearLayout>
